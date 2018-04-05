@@ -1,0 +1,10 @@
+tr
+  td.ua_string = user_agent.user_agent_string
+  td.count = user_agent.counter
+  td.date
+    - if user_agent.first_visit
+      = user_agent.first_visit.localtime
+
+  td.date
+    - if user_agent.last_visit
+      = user_agent.last_visit.localtime

@@ -1,0 +1,10 @@
+.user_agent_section
+
+  .heading
+    h2 User Agents We Have Seen So Far
+    = render 'refresh'
+
+  #user_agents_table.user_agents_table
+    = render 'user_agents_table', :uas => @uas
+
+

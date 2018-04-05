@@ -1,0 +1,53 @@
+.user_agent_section {
+  width: 800px;
+  margin-left: 40px;
+
+  h2 {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .refresh_form {
+    margin: 20px 0px;
+    float: right;
+  }
+
+  .refresh_button {
+    color: white;
+    background-color: darkgray;
+    height: 30px;
+    width: 160px;
+    font-size: medium;
+  }
+
+  table.user_agents {
+    table-layout: fixed;
+    margin: 20px 0px;
+    width: 100%;
+    border-collapse: collapse;
+
+    thead {
+      background-color: darkgray;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background: lightgray;
+    }
+
+    td {
+      border: 2px solid darkgray;
+      padding: 8px;
+      word-wrap: break-word;
+    }
+
+    td.date {
+      width: 180px;
+    }
+
+    td.count {
+      text-align: center;
+      width: 40px;
+    }
+  }
+}

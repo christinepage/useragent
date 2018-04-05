@@ -1,0 +1,2 @@
+javascript:
+  $("#user_agents_table").html("= render partial: 'user_agents_table', locals: { uas: @uas }");
